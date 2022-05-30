@@ -19,5 +19,6 @@ class Stack:
         last_item = self.items[-1]
         return last_item
 
+
 class EmptyStackException(Exception):
     pass
